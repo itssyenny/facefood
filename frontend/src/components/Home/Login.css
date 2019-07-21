@@ -1,0 +1,110 @@
+.container {
+	position: absolute;
+	width: 50%;
+	margin-top: 15px;
+}
+.clear {
+	clear: both;
+}
+
+/* Profile.js */
+h2 {
+	margin: 0px;
+	text-align: center;
+	/*font-size: 50px !important;*/
+}
+.fixedButton {
+	position: fixed;
+	right: 12px;
+	width: 56px;
+	height: 56px;
+	background-color: rgb(243, 152, 35);
+	color: white;
+	border-style: none;
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.fixedButton:hover {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 6px 12px, rgba(0, 0, 0, 0.23) 0px 6px 12px;
+}
+
+#logout {
+	bottom: 12px;
+}
+
+#heart {
+	bottom: 80px;
+}
+
+.clear {
+	clear: both;
+}
+
+#content-bottom {
+	margin:0 auto 0;
+	width: 1020px;
+}
+
+#content-bottom p {
+	text-align: left;
+	color: #ccc;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+#content-bottom p a {
+	color: #ccc;
+	font-weight: bold;
+}
+
+.content-bottom-inner {
+	padding: 20px 0px 30px;
+}
+
+#content-bottom .content-bottom-inner ul {
+	background-color: #fff;
+    float: left;
+    list-style: none outside none;
+    margin: 10px;
+    padding: 10px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+#content-bottom .content-bottom-inner li {
+	padding: 7px 5px;
+}
+
+#content-bottom .content-bottom-inner h4 {
+	 border-bottom: 1px solid #ccc;
+}
+
+#content-bottom .content-bottom-inner li a {
+	color: #fff;
+	text-decoration: none;
+	background-color:#237ef3;
+	padding:7px;
+	border-radius: 5px;
+}
+
+#content-bottom .content-bottom-inner h4 {
+	color: #237ef3;
+    font-size: 25px;
+    font-weight: normal;
+    padding-bottom: 0;
+}
+
+#content-bottom .content-bottom-inner ul.lastcol {
+	margin-right: 0;
+}
+
+#content-bottom .content-bottom-inner span.sitename {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: normal;
+	letter-spacing: -2px;
+	color: #aaa;
+	float: left;
+}
